@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B06FB51281AEC2E00CA0263 /* durationModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06FB50281AEC2E00CA0263 /* durationModalViewController.swift */; };
+		7B06FB77281AF88400CA0263 /* NC1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B06FB75281AF88400CA0263 /* NC1.xcdatamodeld */; };
+		7B2B47BC281A724400B7A8AA /* reminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B47BB281A724400B7A8AA /* reminderViewController.swift */; };
 		7B76ADAC281905D0000C8C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B76ADAB281905D0000C8C13 /* AppDelegate.swift */; };
 		7B76ADAE281905D0000C8C13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B76ADAD281905D0000C8C13 /* SceneDelegate.swift */; };
 		7B76ADB0281905D0000C8C13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B76ADAF281905D0000C8C13 /* ViewController.swift */; };
 		7B76ADB3281905D0000C8C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B76ADB1281905D0000C8C13 /* Main.storyboard */; };
 		7B76ADB5281905D1000C8C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B76ADB4281905D1000C8C13 /* Assets.xcassets */; };
 		7B76ADB8281905D1000C8C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B76ADB6281905D1000C8C13 /* LaunchScreen.storyboard */; };
+		7B76ADC128190B79000C8C13 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B76ADC028190B75000C8C13 /* SF-Pro-Rounded-Bold.otf */; };
+		7B76ADC328190C07000C8C13 /* SF-Pro-Rounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B76ADC228190C04000C8C13 /* SF-Pro-Rounded-Light.otf */; };
+		7B76ADC528190C3A000C8C13 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B76ADC428190C37000C8C13 /* SF-Pro-Rounded-Regular.otf */; };
+		7B76ADC728190C55000C8C13 /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B76ADC628190C52000C8C13 /* SF-Pro-Rounded-Medium.otf */; };
+		7BCECC8728199B960041D8EF /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCECC8628199B960041D8EF /* WaveView.swift */; };
+		7BEDE7C3281A75FF00802352 /* reminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDE7C1281A75FF00802352 /* reminderTableViewCell.swift */; };
+		7BEDE7C4281A75FF00802352 /* reminderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEDE7C2281A75FF00802352 /* reminderTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B06FB50281AEC2E00CA0263 /* durationModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = durationModalViewController.swift; sourceTree = "<group>"; };
+		7B06FB76281AF88400CA0263 /* NC1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NC1.xcdatamodel; sourceTree = "<group>"; };
+		7B2B47BB281A724400B7A8AA /* reminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderViewController.swift; sourceTree = "<group>"; };
 		7B76ADA8281905D0000C8C13 /* Nano Challenge 1 - Laura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano Challenge 1 - Laura.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B76ADAB281905D0000C8C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B76ADAD281905D0000C8C13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,13 @@
 		7B76ADB4281905D1000C8C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B76ADB7281905D1000C8C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B76ADB9281905D1000C8C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B76ADC028190B75000C8C13 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Bold.otf"; path = "../../../../../../Library/Fonts/SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		7B76ADC228190C04000C8C13 /* SF-Pro-Rounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Light.otf"; path = "../../../../../../Library/Fonts/SF-Pro-Rounded-Light.otf"; sourceTree = "<group>"; };
+		7B76ADC428190C37000C8C13 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Regular.otf"; path = "../../../../../../Library/Fonts/SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		7B76ADC628190C52000C8C13 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Medium.otf"; path = "../../../../../../Library/Fonts/SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		7BCECC8628199B960041D8EF /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		7BEDE7C1281A75FF00802352 /* reminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderTableViewCell.swift; sourceTree = "<group>"; };
+		7BEDE7C2281A75FF00802352 /* reminderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = reminderTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,33 @@
 		7B76ADAA281905D0000C8C13 /* Nano Challenge 1 - Laura */ = {
 			isa = PBXGroup;
 			children = (
+				7B76ADBF28190604000C8C13 /* fonts */,
 				7B76ADAB281905D0000C8C13 /* AppDelegate.swift */,
+				7B06FB75281AF88400CA0263 /* NC1.xcdatamodeld */,
 				7B76ADAD281905D0000C8C13 /* SceneDelegate.swift */,
 				7B76ADAF281905D0000C8C13 /* ViewController.swift */,
+				7BCECC8628199B960041D8EF /* WaveView.swift */,
 				7B76ADB1281905D0000C8C13 /* Main.storyboard */,
+				7BEDE7C1281A75FF00802352 /* reminderTableViewCell.swift */,
+				7BEDE7C2281A75FF00802352 /* reminderTableViewCell.xib */,
+				7B2B47BB281A724400B7A8AA /* reminderViewController.swift */,
+				7B06FB50281AEC2E00CA0263 /* durationModalViewController.swift */,
 				7B76ADB4281905D1000C8C13 /* Assets.xcassets */,
 				7B76ADB6281905D1000C8C13 /* LaunchScreen.storyboard */,
 				7B76ADB9281905D1000C8C13 /* Info.plist */,
 			);
 			path = "Nano Challenge 1 - Laura";
+			sourceTree = "<group>";
+		};
+		7B76ADBF28190604000C8C13 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7B76ADC028190B75000C8C13 /* SF-Pro-Rounded-Bold.otf */,
+				7B76ADC628190C52000C8C13 /* SF-Pro-Rounded-Medium.otf */,
+				7B76ADC228190C04000C8C13 /* SF-Pro-Rounded-Light.otf */,
+				7B76ADC428190C37000C8C13 /* SF-Pro-Rounded-Regular.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B76ADB8281905D1000C8C13 /* LaunchScreen.storyboard in Resources */,
+				7B76ADC728190C55000C8C13 /* SF-Pro-Rounded-Medium.otf in Resources */,
+				7B76ADC328190C07000C8C13 /* SF-Pro-Rounded-Light.otf in Resources */,
+				7BEDE7C4281A75FF00802352 /* reminderTableViewCell.xib in Resources */,
+				7B76ADC128190B79000C8C13 /* SF-Pro-Rounded-Bold.otf in Resources */,
 				7B76ADB5281905D1000C8C13 /* Assets.xcassets in Resources */,
 				7B76ADB3281905D0000C8C13 /* Main.storyboard in Resources */,
+				7B76ADC528190C3A000C8C13 /* SF-Pro-Rounded-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2B47BC281A724400B7A8AA /* reminderViewController.swift in Sources */,
 				7B76ADB0281905D0000C8C13 /* ViewController.swift in Sources */,
+				7B06FB77281AF88400CA0263 /* NC1.xcdatamodeld in Sources */,
 				7B76ADAC281905D0000C8C13 /* AppDelegate.swift in Sources */,
+				7BEDE7C3281A75FF00802352 /* reminderTableViewCell.swift in Sources */,
 				7B76ADAE281905D0000C8C13 /* SceneDelegate.swift in Sources */,
+				7BCECC8728199B960041D8EF /* WaveView.swift in Sources */,
+				7B06FB51281AEC2E00CA0263 /* durationModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42X7ZSPVTM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Nano Challenge 1 - Laura/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42X7ZSPVTM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Nano Challenge 1 - Laura/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -356,6 +406,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7B06FB75281AF88400CA0263 /* NC1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7B06FB76281AF88400CA0263 /* NC1.xcdatamodel */,
+			);
+			currentVersion = 7B06FB76281AF88400CA0263 /* NC1.xcdatamodel */;
+			path = NC1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7B76ADA0281905D0000C8C13 /* Project object */;
 }
